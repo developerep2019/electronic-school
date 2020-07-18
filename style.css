@@ -1,6 +1,22 @@
 /*Works of tags*/
 body {
-    font-family: 'Hind Siliguri', sans-serif;*
+    font-family: 'Hind Siliguri', sans-serif;
+    overflow-x: hidden;
+}
+footer {
+    background-color: #282531;
+    color : white;
+    
+}
+footer .row {
+    padding : 74px 50px;
+}
+footer .row li {
+    list-style-type: none;
+}
+footer small {
+    text-align: center;
+    padding-left: 42%;
 }
 /*works of class*/
 .nav-sec{
@@ -15,6 +31,7 @@ body {
     color : white;
     padding : 3px 20px;
     border-radius: 35px;
+    outline: none !important;
 }
 .learn-sec{
     background-color: #F0FFF0;
@@ -27,6 +44,7 @@ body {
 }
 .first-row{
     padding : 50px 100px;
+    width: 100%;
 }
 .first-row img {
     max-width: 100%;
@@ -34,6 +52,69 @@ body {
 .first-row p {
     color : grey;
     line-height: 44px;
+}
+.details-sec{
+    margin : auto;
+    margin-top: 25px;
+}
+.details-sec .col-md-2 {
+    text-align: center;
+;
+}
+.details-sec .col-md-2 img {
+    height: 85px;
+    width: 66px;
+}
+.details-sec .col-md-2 {
+    background-color:#F8FFFB;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+.details-sec .col-md-2 h4 {
+    color : #413960;
+    margin-top: 20px;
+}
+.details-sec .col-md-2 p {
+    color : #585859;
+}
+.cat-highlight{
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    background : white !important;
+}
+.do-center{
+    margin: auto;
+}
+.card-footer {
+    border-top: none;
+    background-color: white;
+}
+.card {
+    padding : 15px;
+    margin: 0px 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border : none;
+}
+.card-footer img {
+    width : 30px;
+}
+.testimonial-sec {
+    margin-bottom: 100px;
+}
+.testimonial-sec h1 {
+    margin : 100px 0px 50px 0px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.testimonial-sec .col-md-6 p{
+    line-height: 35px;
+}
+.online-courses h2 {
+    text-align: center;
+    margin : 100px 0px 50px 0px;
+    color : #413960;
+    font-weight: bold;
 }
 /*Works of ID*/
 #learn-q{
