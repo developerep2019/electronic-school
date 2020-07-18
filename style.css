@@ -1,0 +1,41 @@
+/*Works of tags*/
+body {
+    font-family: 'Hind Siliguri', sans-serif;*
+}
+/*works of class*/
+.nav-sec{
+    background-color: #F0FFF0;
+}
+.top-logo{
+    width: 150px;
+}
+.main-btn{
+    background-color: #21B573;
+    border: none;
+    color : white;
+    padding : 3px 20px;
+    border-radius: 35px;
+}
+.learn-sec{
+    background-color: #F0FFF0;
+}
+.learn-sec h1{
+    font-size: 50px;
+}
+.learn-sec h1 span{
+    color : #21B573;
+}
+.first-row{
+    padding : 50px 100px;
+}
+.first-row img {
+    max-width: 100%;
+}
+.first-row p {
+    color : grey;
+    line-height: 44px;
+}
+/*Works of ID*/
+#learn-q{
+    color : #FD511A;
+}
