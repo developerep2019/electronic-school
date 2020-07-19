@@ -1,22 +1,15 @@
 /*Works of tags*/
 body {
     font-family: 'Hind Siliguri', sans-serif;
-    overflow-x: hidden;
 }
 footer {
     background-color: #282531;
-    color : white;
-    
+    color: white;
+    padding: 50px 20px;
 }
-footer .row {
-    padding : 74px 50px;
-}
-footer .row li {
+
+footer li {
     list-style-type: none;
-}
-footer small {
-    text-align: center;
-    padding-left: 42%;
 }
 /*works of class*/
 .nav-sec{
@@ -115,6 +108,13 @@ footer small {
     margin : 100px 0px 50px 0px;
     color : #413960;
     font-weight: bold;
+}
+.copy-text{
+    margin-bottom: 0px;
+    background-color: #282531;
+    color: white;
+    text-align: center;
+    font-weight: 200;
 }
 /*Works of ID*/
 #learn-q{
